@@ -1,0 +1,26 @@
+{
+  "name": "namaste_react",
+  "version": "0.0.1",
+  "description": "course by akash saini",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MC1293/NamasteReact.git"
+  },
+  "keywords": [
+    "Namaste",
+    "MSV"
+  ],
+  "author": "Sakthi Vinodth Muthuvel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MC1293/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/MC1293/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
