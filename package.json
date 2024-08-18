@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "course by akash saini",
   "scripts": {
+    "start": " cd ep1 && parcel index.html",
+    "start_A": " cd assignment && parcel index.html",
+    "build": "cd ep1 && parcel build index.html",
     "test": "jest"
   },
   "repository": {
