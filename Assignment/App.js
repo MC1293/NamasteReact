@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Logo } from "./components/Logo";
+import { SearchBar } from "./components/SearchBar";
 
 // const header = React.createElement("div", { class: "title" }, [
 //   [React.createElement("h1", null, "Sakthi")],
@@ -20,8 +21,9 @@ import { Logo } from "./components/Logo";
 
 //Adding a fn component
 const Heading = () => (
-  <div>
+  <div className="container">
     <Logo />
+    <SearchBar />
   </div>
 );
 

@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    background-color: blueviolet;
+
+  }
+
+
+img.logoClass {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.search{
+    width: 700px;
+    height: 30px;
+    float: right;
+}
