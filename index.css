@@ -1,0 +1,55 @@
+
+.appcontainer{
+    background-color: khaki;
+    height: 100%;
+}
+
+.logo > img{
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.headerContainer{
+    display:flex ;
+    justify-content:space-between ;
+    border: 1px solid  black;
+}
+
+.nav-items{
+    font-size: 44px;
+}
+
+.nav-items > ul{
+    display:flex;
+    list-style-type: none;
+}
+
+.nav-items >ul >li{
+    padding: 30px 20px;
+}
+
+.rest-card{
+    padding: 5px;
+    width: 250px;
+    background-color: lightblue;
+}
+
+.search {
+    padding: 10px;
+}
+
+.rest-img{
+    width: 100%;
+}
+
+.rest-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.restContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
