@@ -85,3 +85,8 @@
 .topRestoFilter {
   margin-left: 150px;
 }
+
+.userCard {
+  padding: 10px;
+  border: 1px solid black;
+}

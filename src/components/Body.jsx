@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import RestaurantCard from "../components/RestaurantCard";
 import ShimmerUI from "./ShimmerUI";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [resData, setResData] = useState([]);
@@ -58,6 +59,13 @@ const Body = () => {
   const HandleOnChange = (e) => {
     setSearchText(e.target.value);
   };
+
+  let onlineStatus = useOnlineStatus();
+  if (!onlineStatus) {
+    return (
+      <h1>Looks like your Offline!!! Please check your internet connection</h1>
+    );
+  }
 
   return resData.length === 0 ? (
     <ShimmerUI />
